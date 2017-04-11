@@ -1,4 +1,4 @@
-[
+var json = [
     {
         "drug": "Amprolium",
         "assaylimitpercenttypea": "94-114",
@@ -427,4 +427,4 @@
         "typebmaximum": "11.35 g/lb (2.5%)",
         "assaylimitspercenttypeb": "85-115."
     }
-]
+];
