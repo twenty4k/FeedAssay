@@ -1,428 +1,428 @@
 var json = [
     {
-        "drug": "Amprolium",
+        "id": "Amprolium",
         "assaylimitpercenttypea": "94-114",
         "typebmaximum": "11.35 g/lb (2.5%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Amprolium with Ethopabate",
+        "id": "Amprolium with Ethopabate",
         "assaylimitpercenttypea": "94-114",
         "typebmaximum": "22.75 g/lb (5.0%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Apramycin",
+        "id": "Apramycin",
         "assaylimitpercenttypea": "88-112",
         "typebmaximum": "7.5 g/lb (1.65%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Avilamycin",
+        "id": "Avilamycin",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "7.3 g/lb (1.6%)",
         "assaylimitspercenttypeb": "80-110."
     },
     {
-        "drug": "Bacitracin methylenedisalicylate",
+        "id": "Bacitracin methylenedisalicylate",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "25.0 g/lb (5.5%)",
         "assaylimitspercenttypeb": "70-130."
     },
     {
-        "drug": "Bacitracin zinc",
+        "id": "Bacitracin zinc",
         "assaylimitpercenttypea": "84-115",
         "typebmaximum": "5.0 g/lb (1.1%)",
         "assaylimitspercenttypeb": "70-130."
     },
     {
-        "drug": "Bambermycins",
+        "id": "Bambermycins",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "800 g/ton (0.09%)",
         "assaylimitspercenttypeb": "80-120",
         "assaylimitspercenttypec": "70-130"
     },
     {
-        "drug": "Carbadox",
+        "id": "Carbadox",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "2.5 g/lb (0.55%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Chlortetracycline",
+        "id": "Chlortetracycline",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "40.0 g/lb (8.8%)",
         "assaylimitspercenttypeb": "80-115",
         "assaylimitspercenttypec": "70-130"
     },
     {
-        "drug": "Chlortetracycline w/(Sulfamethazine)",
+        "id": "Chlortetracycline w/(Sulfamethazine)",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "85-125",
         "assaylimitspercenttypec": "70-130"
     },
     {
-        "drug": "Clopidol",
+        "id": "Clopidol",
         "assaylimitpercenttypea": "94-106",
         "typebmaximum": "11.4 g/lb (2.5%)",
         "assaylimitspercenttypeb": "90-115",
         "assaylimitspercenttypec": "80-120"
     },
     {
-        "drug": "Coumaphos",
+        "id": "Coumaphos",
         "assaylimitpercenttypea": "95-115",
         "typebmaximum": "6.0 g/lb (1.3%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Decoquinate",
+        "id": "Decoquinate",
         "assaylimitpercenttypea": "90-105",
         "typebmaximum": "2.72 g/lb (0.6%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Dichlorvos",
+        "id": "Dichlorvos",
         "assaylimitpercenttypea": "100-115",
         "typebmaximum": "33.0 g/lb (7.3%)",
         "assaylimitspercenttypeb": "90-120",
         "assaylimitspercenttypec": "80-130"
     },
     {
-        "drug": "Diclazuril",
+        "id": "Diclazuril",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "182 g/t (0.02%)",
         "assaylimitspercenttypeb": "85-115",
         "assaylimitspercenttypec": "70-120"
     },
     {
-        "drug": "Efrotomycin",
+        "id": "Efrotomycin",
         "assaylimitpercenttypea": "94-113",
         "typebmaximum": "1.45 g/lb (0.32%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Erythromycin",
+        "id": "Erythromycin",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "4.625 g/lb (1.02%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Famphur",
+        "id": "Famphur",
         "assaylimitpercenttypea": "100-110",
         "typebmaximum": "5.5 g/lb (1.21%)",
         "assaylimitspercenttypeb": "90-115",
         "assaylimitspercenttypec": "80-120"
     },
     {
-        "drug": "Fenbendazole",
+        "id": "Fenbendazole",
         "assaylimitpercenttypea": "93-113",
         "typebmaximum": "8.87 g/lb (1.96%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Florfenicol",
+        "id": "Florfenicol",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "9.1 g/lb (2.0%)",
         "assaylimitspercenttypeb": "Swine feed: 85-115"
     },
     {
-        "drug": "Halofuginone hydrobromide",
+        "id": "Halofuginone hydrobromide",
         "assaylimitpercenttypea": "90-115",
         "typebmaximum": "272.0 g/ton (.03%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Hygromycin B",
+        "id": "Hygromycin B",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "1,200 g/ton (0.13%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Iodinated casein",
+        "id": "Iodinated casein",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "20.0 g/lb (4.4%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Ivermectin",
+        "id": "Ivermectin",
         "assaylimitpercenttypea": "95-105",
         "typebmaximum": "1,180 g/ton (0.13%)",
         "assaylimitspercenttypeb": "80-110."
     },
     {
-        "drug": "Laidlomycin propionate potassium",
+        "id": "Laidlomycin propionate potassium",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "1 g/lb (0.22%)",
         "assaylimitspercenttypeb": "90-115",
         "assaylimitspercenttypec": "85-115"
     },
     {
-        "drug": "Lasalocid",
+        "id": "Lasalocid",
         "assaylimitpercenttypea": "95-115",
         "typebmaximum": "40.0 g/lb (8.8%)",
         "assaylimitspercenttypeb": "Type B (cattle and sheep): 80-120",
         "assaylimitspercenttypec": "Type C (all): 75-125"
     },
     {
-        "drug": "Lincomycin",
+        "id": "Lincomycin",
         "assaylimitpercenttypea": "90-115",
         "typebmaximum": "20.0 g/lb (4.4%)",
         "assaylimitspercenttypeb": "80-130."
     },
     {
-        "drug": "Maduramicin ammonium",
+        "id": "Maduramicin ammonium",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "545 g/ton (.06%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Melengestrol acetate",
+        "id": "Melengestrol acetate",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "10.0 g/ton (0.0011%)",
         "assaylimitspercenttypeb": "70-120."
     },
     {
-        "drug": "Monensin (Foul)",
+        "id": "Monensin (Foul)",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "40.0 g/lb (8.8%)",
         "assaylimitspercenttypeb": "Chickens, turkeys, and quail: 75-125"
     },
     {
-        "drug": "Monensin (Goats)",
+        "id": "Monensin (Goats)",
         "assaylimitpercenttypea": "85-116",
         "typebmaximum": "40.0 g/lb (8.8%)",
         "assaylimitspercenttypeb": "Goats: 20 g/ton 85-115"
     },
     {
-        "drug": "Monensin (Cattle)",
+        "id": "Monensin (Cattle)",
         "assaylimitpercenttypea": "85-117",
         "typebmaximum": "40.0 g/lb (8.8%)",
         "assaylimitspercenttypeb": "Cattle: 5-10 g/ton 80-120",
         "assaylimitspercenttypec": "Cattle: 10-30 g/ton 85-115"
     },
     {
-        "drug": "Monensin (Liq Feed)",
+        "id": "Monensin (Liq Feed)",
         "assaylimitpercenttypea": "85-118",
         "typebmaximum": "40.0 g/lb (8.8%)",
         "assaylimitspercenttypeb": "Liq. feed: 80-120"
     },
     {
-        "drug": "Morantel tartrate",
+        "id": "Morantel tartrate",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "66.0 g/lb (14.52%)",
         "assaylimitspercenttypeb": "85-115."
     },
     {
-        "drug": "Narasin",
+        "id": "Narasin",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "7.2 g/lb (1.6%)",
         "assaylimitspercenttypeb": "85-115",
         "assaylimitspercenttypec": "75-125"
     },
     {
-        "drug": "Narasin w/(Nicarbazin) (granular)",
+        "id": "Narasin w/(Nicarbazin) (granular)",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "5.675 g/lb (1.25%)",
         "assaylimitspercenttypeb": "85-115",
         "assaylimitspercenttypec": "75-125"
     },
     {
-        "drug": "Neomycin",
+        "id": "Neomycin",
         "assaylimitpercenttypea": "80-120",
         "typebmaximum": "7.0 g/lb (1.54%)",
         "assaylimitspercenttypeb": "70-125."
     },
     {
-        "drug": "Neomycin sulfate",
+        "id": "Neomycin sulfate",
         "assaylimitpercenttypea": "80-120",
         "typebmaximum": "100 g/lb (22.0%)",
         "assaylimitspercenttypeb": "70-125."
     },
     {
-        "drug": "Nequinate",
+        "id": "Nequinate",
         "assaylimitpercenttypea": "95-112",
         "typebmaximum": "1.83 g/lb (0.4%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Nicarbazin (granular)",
+        "id": "Nicarbazin (granular)",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "5.675 g/lb (1.25%)",
         "assaylimitspercenttypeb": "85-115",
         "assaylimitspercenttypec": "75-125"
     },
     {
-        "drug": "Nicarbazin (powder)",
+        "id": "Nicarbazin (powder)",
         "assaylimitpercenttypea": "98-106",
         "typebmaximum": "5.675 g/lb (1.25%)",
         "assaylimitspercenttypeb": "85-115",
         "assaylimitspercenttypec": "80-120"
     },
     {
-        "drug": "Novobiocin",
+        "id": "Novobiocin",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "17.5 g/lb (3.85%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Nystatin",
+        "id": "Nystatin",
         "assaylimitpercenttypea": "85-125",
         "typebmaximum": "5.0 g/lb (1.1%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Ormetoprim",
+        "id": "Ormetoprim",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "Poultry: 3.405 g/lb",
         "assaylimitspercenttypeb": "80-115."
     },
     {
-        "drug": "Oxytetracycline",
+        "id": "Oxytetracycline",
         "assaylimitpercenttypea": "90-120",
         "typebmaximum": "20.0 g/lb (4.4%)",
         "assaylimitspercenttypeb": "75-125",
         "assaylimitspercenttypec": "65-135"
     },
     {
-        "drug": "Oxytetracycline w/(Neomycin)",
+        "id": "Oxytetracycline w/(Neomycin)",
         "assaylimitpercenttypea": "80-120",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "65-135."
     },
     {
-        "drug": "Penicillin",
+        "id": "Penicillin",
         "assaylimitpercenttypea": "80-120",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "65-135."
     },
     {
-        "drug": "Penicillin w/(Sulfamethazine)",
+        "id": "Penicillin w/(Sulfamethazine)",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "5.0 g/lb (1.1%)",
         "assaylimitspercenttypeb": "85-125",
         "assaylimitspercenttypec": "70-130."
     },
     {
-        "drug": "Poloxalene",
+        "id": "Poloxalene",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "54.48 g/lb (12.0%)",
         "assaylimitspercenttypeb": "Liq. feed: 85-115."
     },
     {
-        "drug": "Pyrantel tartrate",
+        "id": "Pyrantel tartrate",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "36 g/lb (7.9%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Ractopamine",
+        "id": "Ractopamine",
         "assaylimitpercenttypea": "85-105",
         "typebmaximum": "2.46 g/lb (0.54%)",
         "assaylimitspercenttypeb": "80-110",
         "assaylimitspercenttypec": "75-125"
     },
     {
-        "drug": "Robenidine",
+        "id": "Robenidine",
         "assaylimitpercenttypea": "95-115",
         "typebmaximum": "1.5 g/lb (0.33%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Salinomycin",
+        "id": "Salinomycin",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "6.0 g/lb (1.3%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Semduramicin (as semduramicin sodium biomass)",
+        "id": "Semduramicin (as semduramicin sodium biomass)",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "2.27 g/lb (0.50%)",
         "assaylimitspercenttypeb": "80-120"
     },
     {
-        "drug": "Semduramicin (as semduramicin sodium)",
+        "id": "Semduramicin (as semduramicin sodium)",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "2.27 g/lb (0.50%)",
         "assaylimitspercenttypeb": "80-110"
     },
     {
-        "drug": "Sulfadimethoxine",
+        "id": "Sulfadimethoxine",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "Poultry: 5.675 g/lb",
         "assaylimitspercenttypeb": "80-115",
         "assaylimitspercenttypec": "75-125"
     },
     {
-        "drug": "Sulfamerazine",
+        "id": "Sulfamerazine",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "18.6 g/lb (4.0%)",
         "assaylimitspercenttypeb": "85-115."
     },
     {
-        "drug": "Sulfamethazine",
+        "id": "Sulfamethazine",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "80-120."
     },
     {
-        "drug": "Sulfaquinoxaline",
+        "id": "Sulfaquinoxaline",
         "assaylimitpercenttypea": "98-106",
         "typebmaximum": "11.2 g/lb (2.5%)",
         "assaylimitspercenttypeb": "85-115."
     },
     {
-        "drug": "Thiabendazole",
+        "id": "Thiabendazole",
         "assaylimitpercenttypea": "94-106",
         "typebmaximum": "45.4 g/lb (10.0%)",
         "assaylimitspercenttypeb": ">7% 85-115; <7% 90-110."
     },
     {
-        "drug": "Tiamulin hydrogen fumarate",
+        "id": "Tiamulin hydrogen fumarate",
         "assaylimitpercenttypea": "90-115",
         "typebmaximum": "10 g/lb",
         "assaylimitspercenttypeb": "90-115",
         "assaylimitspercenttypec": "70-130"
     },
     {
-        "drug": "Tilmicosin",
+        "id": "Tilmicosin",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "37.9 g/lb (8.35%)",
         "assaylimitspercenttypeb": "85-115."
     },
     {
-        "drug": "Tylosin",
+        "id": "Tylosin",
         "assaylimitpercenttypea": "80-120",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Tylosin w/(Sulfamethazine)",
+        "id": "Tylosin w/(Sulfamethazine)",
         "assaylimitpercenttypea": "80-120",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "75-125."
     },
     {
-        "drug": "Tylvalosin",
+        "id": "Tylvalosin",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "3.86 g/lb",
         "assaylimitspercenttypeb": "85-115."
     },
     {
-        "drug": "Virginiamycin",
+        "id": "Virginiamycin",
         "assaylimitpercenttypea": "85-115",
         "typebmaximum": "10.0 g/lb (2.2%)",
         "assaylimitspercenttypeb": "70-130."
     },
     {
-        "drug": "Zilpaterol",
+        "id": "Zilpaterol",
         "assaylimitpercenttypea": "90-110",
         "typebmaximum": "680 g/t (0.075%)",
         "assaylimitspercenttypeb": "80-110",
         "assaylimitspercenttypec": "75-115"
     },
     {
-        "drug": "Zoalene",
+        "id": "Zoalene",
         "assaylimitpercenttypea": "92-104",
         "typebmaximum": "11.35 g/lb (2.5%)",
         "assaylimitspercenttypeb": "85-115."
