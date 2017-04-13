@@ -1,411 +1,70 @@
-var json = [
-    {
-        "drug": "Amprolium",
-        "assay_a": "94-114",
-        "b_max": "11.35 g/lb (2.5%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Amprolium with Ethopabate",
-        "assay_a": "94-114",
-        "b_max": "22.75 g/lb (5.0%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Apramycin",
-        "assay_a": "88-112",
-        "b_max": "7.5 g/lb (1.65%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Avilamycin",
-        "assay_a": "90-110",
-        "b_max": "7.3 g/lb (1.6%)",
-        "assay_bc": "80-110”
-    },
-    {
-        "drug": "Bacitracin methylenedisalicylate",
-        "assay_a": "85-115",
-        "b_max": "25.0 g/lb (5.5%)",
-        "assay_bc": "70-130”
-    },
-    {
-        "drug": "Bacitracin zinc",
-        "assay_a": "84-115",
-        "b_max": "5.0 g/lb (1.1%)",
-        "assay_bc": "70-130”
-    },
-    {
-        "drug": "Bambermycins",
-        "assay_a": "90-110",
-        "b_max": "800 g/ton (0.09%)",
-        "assay_bc": "80-120/70-130",
-    },
-    {
-        "drug": "Carbadox",
-        "assay_a": "90-110",
-        "b_max": "2.5 g/lb (0.55%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Chlortetracycline",
-        "assay_a": "85-115",
-        "b_max": "40.0 g/lb (8.8%)",
-        "assay_bc": "80-115/70-130",
-    },
-    {
-        "drug": "Chlortetracycline w/(Sulfamethazine)",
-        "assay_a": "85-115",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "85-125/70-130",
-    },
-    {
-        "drug": "Clopdrugol",
-        "assay_a": "94-106",
-        "b_max": "11.4 g/lb (2.5%)",
-        "assay_bc": "90-115/80-120",
-    },
-    {
-        "drug": "Coumaphos",
-        "assay_a": "95-115",
-        "b_max": "6.0 g/lb (1.3%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Decoquinate",
-        "assay_a": "90-105",
-        "b_max": "2.72 g/lb (0.6%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Dichlorvos",
-        "assay_a": "100-115",
-        "b_max": "33.0 g/lb (7.3%)",
-        "assay_bc": "90-120/80-130",
-    },
-    {
-        "drug": "Diclazuril",
-        "assay_a": "90-110",
-        "b_max": "182 g/t (0.02%)",
-        "assay_bc": "85-115/70-120",
-    },
-    {
-        "drug": "Efrotomycin",
-        "assay_a": "94-113",
-        "b_max": "1.45 g/lb (0.32%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Erythromycin",
-        "assay_a": "85-115",
-        "b_max": "4.625 g/lb (1.02%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Famphur",
-        "assay_a": "100-110",
-        "b_max": "5.5 g/lb (1.21%)",
-        "assay_bc": "90-115/80-120",
-    },
-    {
-        "drug": "Fenbendazole",
-        "assay_a": "93-113",
-        "b_max": "8.87 g/lb (1.96%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Florfenicol",
-        "assay_a": "90-110",
-        "b_max": "9.1 g/lb (2.0%)",
-        "assay_bc": "Swine feed: 85-115"
-    },
-    {
-        "drug": "Halofuginone hydrobromdruge",
-        "assay_a": "90-115",
-        "b_max": "272.0 g/ton (.03%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Hygromycin B",
-        "assay_a": "90-110",
-        "b_max": "1,200 g/ton (0.13%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Iodinated casein",
-        "assay_a": "85-115",
-        "b_max": "20.0 g/lb (4.4%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Ivermectin",
-        "assay_a": "95-105",
-        "b_max": "1,180 g/ton (0.13%)",
-        "assay_bc": "80-110”
-    },
-    {
-        "drug": "Ladruglomycin propionate potassium",
-        "assay_a": "90-110",
-        "b_max": "1 g/lb (0.22%)",
-        "assay_bc": "90-115/85-115",
-    },
-    {
-        "drug": "Lasalocdrug",
-        "assay_a": "95-115",
-        "b_max": "40.0 g/lb (8.8%)",
-        "assay_bc": "Type B (cattle and sheep): 80-120/ Type C (all): 75-125",
-    },
-    {
-        "drug": "Lincomycin",
-        "assay_a": "90-115",
-        "b_max": "20.0 g/lb (4.4%)",
-        "assay_bc": "80-130”
-    },
-    {
-        "drug": "Maduramicin ammonium",
-        "assay_a": "90-110",
-        "b_max": "545 g/ton (.06%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Melengestrol acetate",
-        "assay_a": "90-110",
-        "b_max": "10.0 g/ton (0.0011%)",
-        "assay_bc": "70-120”
-    },
-    {
-        "drug": "Monensin (Foul)",
-        "assay_a": "85-115",
-        "b_max": "40.0 g/lb (8.8%)",
-        "assay_bc": "Chickens, turkeys, and quail: 75-125"
-    },
-    {
-        "drug": "Monensin (Goats)",
-        "assay_a": "85-116",
-        "b_max": "40.0 g/lb (8.8%)",
-        "assay_bc": "Goats: 20 g/ton 85-115"
-    },
-    {
-        "drug": "Monensin (Cattle)",
-        "assay_a": "85-117",
-        "b_max": "40.0 g/lb (8.8%)",
-        "assay_bc": "Cattle: 5-10 g/ton 80-120/Cattle: 10-30 g/ton 85-115",
-    },
-    {
-        "drug": "Monensin (Liq Feed)",
-        "assay_a": "85-118",
-        "b_max": "40.0 g/lb (8.8%)",
-        "assay_bc": "Liq. feed: 80-120"
-    },
-    {
-        "drug": "Morantel tartrate",
-        "assay_a": "90-110",
-        "b_max": "66.0 g/lb (14.52%)",
-        "assay_bc": "85-115”
-    },
-    {
-        "drug": "Narasin",
-        "assay_a": "90-110",
-        "b_max": "7.2 g/lb (1.6%)",
-        "assay_bc": "85-115/75-125",
-    },
-    {
-        "drug": "Narasin w/(Nicarbazin) (granular)",
-        "assay_a": "90-110",
-        "b_max": "5.675 g/lb (1.25%)",
-        "assay_bc": "85-115/75-125",
-    },
-    {
-        "drug": "Neomycin",
-        "assay_a": "80-120",
-        "b_max": "7.0 g/lb (1.54%)",
-        "assay_bc": "70-125”
-    },
-    {
-        "drug": "Neomycin sulfate",
-        "assay_a": "80-120",
-        "b_max": "100 g/lb (22.0%)",
-        "assay_bc": "70-125”
-    },
-    {
-        "drug": "Nequinate",
-        "assay_a": "95-112",
-        "b_max": "1.83 g/lb (0.4%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Nicarbazin (granular)",
-        "assay_a": "90-110",
-        "b_max": "5.675 g/lb (1.25%)",
-        "assay_bc": "85-115/75-125",
-    },
-    {
-        "drug": "Nicarbazin (powder)",
-        "assay_a": "98-106",
-        "b_max": "5.675 g/lb (1.25%)",
-        "assay_bc": "85-115/80-120",
-    },
-    {
-        "drug": "Novobiocin",
-        "assay_a": "85-115",
-        "b_max": "17.5 g/lb (3.85%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Nystatin",
-        "assay_a": "85-125",
-        "b_max": "5.0 g/lb (1.1%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Ormetoprim",
-        "assay_a": "90-110",
-        "b_max": "Poultry: 3.405 g/lb",
-        "assay_bc": "80-115”
-    },
-    {
-        "drug": "Oxytetracycline",
-        "assay_a": "90-120",
-        "b_max": "20.0 g/lb (4.4%)",
-        "assay_bc": "75-125/65-135",
-    },
-    {
-        "drug": "Oxytetracycline w/(Neomycin)",
-        "assay_a": "80-120",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "65-135”
-    },
-    {
-        "drug": "Penicillin",
-        "assay_a": "80-120",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "65-135”
-    },
-    {
-        "drug": "Penicillin w/(Sulfamethazine)",
-        "assay_a": "85-115",
-        "b_max": "5.0 g/lb (1.1%)",
-        "assay_bc": "85-125/70-130",
-    },
-    {
-        "drug": "Poloxalene",
-        "assay_a": "90-110",
-        "b_max": "54.48 g/lb (12.0%)",
-        "assay_bc": "Liq. feed: 85-115”
-    },
-    {
-        "drug": "Pyrantel tartrate",
-        "assay_a": "90-110",
-        "b_max": "36 g/lb (7.9%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Ractopamine",
-        "assay_a": "85-105",
-        "b_max": "2.46 g/lb (0.54%)",
-        "assay_bc": "80-110/75-125",
-    },
-    {
-        "drug": "Robendrugine",
-        "assay_a": "95-115",
-        "b_max": "1.5 g/lb (0.33%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Salinomycin",
-        "assay_a": "90-110",
-        "b_max": "6.0 g/lb (1.3%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Semduramicin (as semduramicin sodium biomass)",
-        "assay_a": "90-110",
-        "b_max": "2.27 g/lb (0.50%)",
-        "assay_bc": "80-120"
-    },
-    {
-        "drug": "Semduramicin (as semduramicin sodium)",
-        "assay_a": "90-110",
-        "b_max": "2.27 g/lb (0.50%)",
-        "assay_bc": "80-110"
-    },
-    {
-        "drug": "Sulfadimethoxine",
-        "assay_a": "90-110",
-        "b_max": "Poultry: 5.675 g/lb",
-        "assay_bc": "80-115/75-125",
-    },
-    {
-        "drug": "Sulfamerazine",
-        "assay_a": "85-115",
-        "b_max": "18.6 g/lb (4.0%)",
-        "assay_bc": "85-115”
-    },
-    {
-        "drug": "Sulfamethazine",
-        "assay_a": "85-115",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "80-120”
-    },
-    {
-        "drug": "Sulfaquinoxaline",
-        "assay_a": "98-106",
-        "b_max": "11.2 g/lb (2.5%)",
-        "assay_bc": "85-115”
-    },
-    {
-        "drug": "Thiabendazole",
-        "assay_a": "94-106",
-        "b_max": "45.4 g/lb (10.0%)",
-        "assay_bc": ">7% 85-115; <7% 90-110”
-    },
-    {
-        "drug": "Tiamulin hydrogen fumarate",
-        "assay_a": "90-115",
-        "b_max": "10 g/lb",
-        "assay_bc": "90-115/70-130",
-    },
-    {
-        "drug": "Tilmicosin",
-        "assay_a": "90-110",
-        "b_max": "37.9 g/lb (8.35%)",
-        "assay_bc": "85-115”
-    },
-    {
-        "drug": "Tylosin",
-        "assay_a": "80-120",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Tylosin w/(Sulfamethazine)",
-        "assay_a": "80-120",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "75-125”
-    },
-    {
-        "drug": "Tylvalosin",
-        "assay_a": "90-110",
-        "b_max": "3.86 g/lb",
-        "assay_bc": "85-115”
-    },
-    {
-        "drug": "Virginiamycin",
-        "assay_a": "85-115",
-        "b_max": "10.0 g/lb (2.2%)",
-        "assay_bc": "70-130”
-    },
-    {
-        "drug": "Zilpaterol",
-        "assay_a": "90-110",
-        "b_max": "680 g/t (0.075%)",
-        "assay_bc": "80-110/75-115",
-    },
-    {
-        "drug": "Zoalene",
-        "assay_a": "92-104",
-        "b_max": "11.35 g/lb (2.5%)",
-        "assay_bc": "85-115”
-    }
-]
-
+{
+"d1":{"drug": "Amprolium","assay_a": "94-114","b_max": "11.35 g/lb (2.5%)","assay_bc": "80-120"},
+"d2":{"drug": "Amprolium with Ethopabate","assay_a": "94-114","b_max": "22.75 g/lb (5.0%)","assay_bc": "80-120"},
+"d3":{"drug": "Apramycin","assay_a": "88-112","b_max": "7.5 g/lb (1.65%)","assay_bc": "80-120"},
+"d4":{"drug": "Avilamycin","assay_a": "90-110","b_max": "7.3 g/lb (1.6%)","assay_bc": "80-110"},
+"d5":{"drug": "Bacitracin methylenedisalicylate","assay_a": "85-115","b_max": "25.0 g/lb (5.5%)","assay_bc": "70-130"},
+"d6":{"drug": "Bacitracin zinc","assay_a": "84-115","b_max": "5.0 g/lb (1.1%)","assay_bc": "70-130"},
+"d7":{"drug": "Bambermycins","assay_a": "90-110","b_max": "800 g/ton (0.09%)","assay_bc": "80-120/70-130"},
+"d8":{"drug": "Carbadox","assay_a": "90-110","b_max": "2.5 g/lb (0.55%)","assay_bc": "75-125"},
+"d9":{"drug": "Chlortetracycline","assay_a": "85-115","b_max": "40.0 g/lb (8.8%)","assay_bc": "80-115/70-130"},
+"d10":{"drug": "Chlortetracycline w/(Sulfamethazine)","assay_a": "85-115","b_max": "10.0 g/lb (2.2%)","assay_bc": "85-125/70-130"},
+"d11":{"drug": "Clopdrugol","assay_a": "94-106","b_max": "11.4 g/lb (2.5%)","assay_bc": "90-115/80-120"},
+"d12":{"drug": "Coumaphos","assay_a": "95-115","b_max": "6.0 g/lb (1.3%)","assay_bc": "80-120"},
+"d13":{"drug": "Decoquinate","assay_a": "90-105","b_max": "2.72 g/lb (0.6%)","assay_bc": "80-120"},
+"d14":{"drug": "Dichlorvos","assay_a": "100-115","b_max": "33.0 g/lb (7.3%)","assay_bc": "90-120/80-130"},
+"d15":{"drug": "Diclazuril","assay_a": "90-110","b_max": "182 g/t (0.02%)","assay_bc": "85-115/70-120"},
+"d16":{"drug": "Efrotomycin","assay_a": "94-113","b_max": "1.45 g/lb (0.32%)","assay_bc": "80-120"},
+"d17":{"drug": "Erythromycin","assay_a": "85-115","b_max": "4.625 g/lb (1.02%)","assay_bc": "75-125"},
+"d18":{"drug": "Famphur","assay_a": "100-110","b_max": "5.5 g/lb (1.21%)","assay_bc": "90-115/80-120"},
+"d19":{"drug": "Fenbendazole","assay_a": "93-113","b_max": "8.87 g/lb (1.96%)","assay_bc": "75-125"},
+"d20":{"drug": "Florfenicol","assay_a": "90-110","b_max": "9.1 g/lb (2.0%)","assay_bc": "Swine feed: 85-115"},
+"d21":{"drug": "Halofuginone hydrobromdruge","assay_a": "90-115","b_max": "272.0 g/ton (.03%)","assay_bc": "75-125"},
+"d22":{"drug": "Hygromycin B","assay_a": "90-110","b_max": "1,200 g/ton (0.13%)","assay_bc": "75-125"},
+"d23":{"drug": "Iodinated casein","assay_a": "85-115","b_max": "20.0 g/lb (4.4%)","assay_bc": "75-125"},
+"d24":{"drug": "Ivermectin","assay_a": "95-105","b_max": "1,180 g/ton (0.13%)","assay_bc": "80-110"},
+"d25":{"drug": "Ladruglomycin propionate potassium","assay_a": "90-110","b_max": "1 g/lb (0.22%)","assay_bc": "90-115/85-115"},
+"d26":{"drug": "Lasalocdrug","assay_a": "95-115","b_max": "40.0 g/lb (8.8%)","assay_bc": "Type B (cattle and sheep): 80-120/ Type C (all): 75-125"},
+"d27":{"drug": "Lincomycin","assay_a": "90-115","b_max": "20.0 g/lb (4.4%)","assay_bc": "80-130"},
+"d28":{"drug": "Maduramicin ammonium","assay_a": "90-110","b_max": "545 g/ton (.06%)","assay_bc": "80-120"},
+"d29":{"drug": "Melengestrol acetate","assay_a": "90-110","b_max": "10.0 g/ton (0.0011%)","assay_bc": "70-120"},
+"d30":{"drug": "Monensin (Foul)","assay_a": "85-115","b_max": "40.0 g/lb (8.8%)","assay_bc": "Chickens, turkeys, and quail: 75-125"},
+"d31":{"drug": "Monensin (Goats)","assay_a": "85-116","b_max": "40.0 g/lb (8.8%)","assay_bc": "Goats: 20 g/ton 85-115"},
+"d32":{"drug": "Monensin (Cattle)","assay_a": "85-117","b_max": "40.0 g/lb (8.8%)","assay_bc": "Cattle: 5-10 g/ton 80-120/Cattle: 10-30 g/ton 85-115"},
+"d33":{"drug": "Monensin (Liq Feed)","assay_a": "85-118","b_max": "40.0 g/lb (8.8%)","assay_bc": "Liq. feed: 80-120"},
+"d34":{"drug": "Morantel tartrate","assay_a": "90-110","b_max": "66.0 g/lb (14.52%)","assay_bc": "85-115"},
+"d35":{"drug": "Narasin","assay_a": "90-110","b_max": "7.2 g/lb (1.6%)","assay_bc": "85-115/75-125"},
+"d36":{"drug": "Narasin w/(Nicarbazin) (granular)","assay_a": "90-110","b_max": "5.675 g/lb (1.25%)","assay_bc": "85-115/75-125"},
+"d37":{"drug": "Neomycin","assay_a": "80-120","b_max": "7.0 g/lb (1.54%)","assay_bc": "70-125"},
+"d38":{"drug": "Neomycin sulfate","assay_a": "80-120","b_max": "100 g/lb (22.0%)","assay_bc": "70-125"},
+"d39":{"drug": "Nequinate","assay_a": "95-112","b_max": "1.83 g/lb (0.4%)","assay_bc": "80-120"},
+"d40":{"drug": "Nicarbazin (granular)","assay_a": "90-110","b_max": "5.675 g/lb (1.25%)","assay_bc": "85-115/75-125"},
+"d41":{"drug": "Nicarbazin (powder)","assay_a": "98-106","b_max": "5.675 g/lb (1.25%)","assay_bc": "85-115/80-120"},
+"d42":{"drug": "Novobiocin","assay_a": "85-115","b_max": "17.5 g/lb (3.85%)","assay_bc": "80-120"},
+"d43":{"drug": "Nystatin","assay_a": "85-125","b_max": "5.0 g/lb (1.1%)","assay_bc": "75-125"},
+"d44":{"drug": "Ormetoprim","assay_a": "90-110","b_max": "Poultry: 3.405 g/lb","assay_bc": "80-115"},
+"d45":{"drug": "Oxytetracycline","assay_a": "90-120","b_max": "20.0 g/lb (4.4%)","assay_bc": "75-125/65-135"},
+"d46":{"drug": "Oxytetracycline w/(Neomycin)","assay_a": "80-120","b_max": "10.0 g/lb (2.2%)","assay_bc": "65-135"},
+"d47":{"drug": "Penicillin","assay_a": "80-120","b_max": "10.0 g/lb (2.2%)","assay_bc": "65-135"},
+"d48":{"drug": "Penicillin w/(Sulfamethazine)","assay_a": "85-115","b_max": "5.0 g/lb (1.1%)","assay_bc": "85-125/70-130"},
+"d49":{"drug": "Poloxalene","assay_a": "90-110","b_max": "54.48 g/lb (12.0%)","assay_bc": "Liq. feed: 85-115"},
+"d50":{"drug": "Pyrantel tartrate","assay_a": "90-110","b_max": "36 g/lb (7.9%)","assay_bc": "75-125"},
+"d51":{"drug": "Ractopamine","assay_a": "85-105","b_max": "2.46 g/lb (0.54%)","assay_bc": "80-110/75-125"},
+"d52":{"drug": "Robendrugine","assay_a": "95-115","b_max": "1.5 g/lb (0.33%)","assay_bc": "80-120"},
+"d53":{"drug": "Salinomycin","assay_a": "90-110","b_max": "6.0 g/lb (1.3%)","assay_bc": "80-120"},
+"d54":{"drug": "Semduramicin (as semduramicin sodium biomass)","assay_a": "90-110","b_max": "2.27 g/lb (0.50%)","assay_bc": "80-120"},
+"d55":{"drug": "Semduramicin (as semduramicin sodium)","assay_a": "90-110","b_max": "2.27 g/lb (0.50%)","assay_bc": "80-110"},
+"d56":{"drug": "Sulfadimethoxine","assay_a": "90-110","b_max": "Poultry: 5.675 g/lb","assay_bc": "80-115/75-125"},
+"d57":{"drug": "Sulfamerazine","assay_a": "85-115","b_max": "18.6 g/lb (4.0%)","assay_bc": "85-115"},
+"d58":{"drug": "Sulfamethazine","assay_a": "85-115","b_max": "10.0 g/lb (2.2%)","assay_bc": "80-120"},
+"d59":{"drug": "Sulfaquinoxaline","assay_a": "98-106","b_max": "11.2 g/lb (2.5%)","assay_bc": "85-115"},
+"d60":{"drug": "Thiabendazole","assay_a": "94-106","b_max": "45.4 g/lb (10.0%)","assay_bc": ">7% 85-115; <7% 90-110"},
+"d61":{"drug": "Tiamulin hydrogen fumarate","assay_a": "90-115","b_max": "10 g/lb","assay_bc": "90-115/70-130"},
+"d62":{"drug": "Tilmicosin","assay_a": "90-110","b_max": "37.9 g/lb (8.35%)","assay_bc": "85-115"},
+"d63":{"drug": "Tylosin","assay_a": "80-120","b_max": "10.0 g/lb (2.2%)","assay_bc": "75-125"},
+"d64":{"drug": "Tylosin w/(Sulfamethazine)","assay_a": "80-120","b_max": "10.0 g/lb (2.2%)","assay_bc": "75-125"},
+"d65":{"drug": "Tylvalosin","assay_a": "90-110","b_max": "3.86 g/lb","assay_bc": "85-115"},
+"d66":{"drug": "Virginiamycin","assay_a": "85-115","b_max": "10.0 g/lb (2.2%)","assay_bc": "70-130"},
+"d67":{"drug": "Zilpaterol","assay_a": "90-110","b_max": "680 g/t (0.075%)","assay_bc": "80-110/75-115"},
+"d68":{"drug": "Zoalene","assay_a": "92-104","b_max": "11.35 g/lb (2.5%)","assay_bc": "85-115"}
+}
