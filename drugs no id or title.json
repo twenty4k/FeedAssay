@@ -1,5 +1,5 @@
 {
-
+"drugs": [
 {"drug": "Amprolium","assay_a": "94-114","b_max": "11.35 g/lb (2.5%)","assay_bc": "80-120"},
 {"drug": "Amprolium with Ethopabate","assay_a": "94-114","b_max": "22.75 g/lb (5.0%)","assay_bc": "80-120"},
 {"drug": "Apramycin","assay_a": "88-112","b_max": "7.5 g/lb (1.65%)","assay_bc": "80-120"},
@@ -68,5 +68,5 @@
 {"drug": "Virginiamycin","assay_a": "85-115","b_max": "10.0 g/lb (2.2%)","assay_bc": "70-130"},
 {"drug": "Zilpaterol","assay_a": "90-110","b_max": "680 g/t (0.075%)","assay_bc": "80-110/75-115"},
 {"drug": "Zoalene","assay_a": "92-104","b_max": "11.35 g/lb (2.5%)","assay_bc": "85-115"}
-
+]
 }
