@@ -1,0 +1,50 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Semduramicin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(1) 22.7 (25 ppm)",
+      "Combinationgramston" : "none",
+      "Indication" : "Broiler chickens - For the prevention of coccidiosis caused by Eimeria acervulina ~ E. brunetti ~ E. maxima ~ E. mivati/E. mitis ~ E. necatrix ~ and E. tenella.",
+      "Limitations" : "Do not feed to laying hens.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "N/A",
+      "Regulation" : "21 CFR §558.555",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=555"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Semduramicin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(2) 22.7",
+      "Combinationgramston" : "Bacitracin methylenedisalicylate 10 to 50",
+      "Indication" : "Broiler chickens - As in paragraph (d)(1) of this section ~ for improved feed efficiency.",
+      "Limitations" : "Feed continuously as sole ration. Do not feed to laying hens. Bacitracin methylenedisalicylate as provided by No. 054771 in §510.600(c) of this chapter.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "N/A",
+      "Regulation" : "22 CFR §558.555",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=555"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Semduramicin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(1) 22.7 (25 ppm)",
+      "Combinationgramston" : "none",
+      "Indication" : "Broiler chickens - For the prevention of coccidiosis caused by Eimeria tenella ~ E. acervulina ~ E. maxima ~ E. brunetti ~ E. necatrix ~ and E. mitis.",
+      "Limitations" : "Do not feed to laying hens.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "N/A",
+      "Regulation" : "23 CFR §558.555",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=555"
+    }
+  ]

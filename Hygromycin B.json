@@ -1,0 +1,18 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Hygromycin B",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(i) 8 to 12",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - For control of infections of large roundworms (Ascaris galli) ~ cecal worms (Heterakis gallinae) ~ and capillary worms (Capillaria obsignata)",
+      "Limitations" : "Use in complete feed. Withdraw 3 days before slaughter",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for hygromycin B medicated feeds must not exceed 6 months from the date of issuance. VFDs for hygromycin B shall not be refilled.",
+      "Regulation" : "21 CFR §558.274",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=274"
+    }
+  ]

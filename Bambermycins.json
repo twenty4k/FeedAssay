@@ -1,0 +1,18 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Bambermycins",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(i) 1 to 2",
+      "Combinationgramston" : "none",
+      "Indication" : "Broiler chickens - For increased rate of weight gain and improved feed efficiency",
+      "Limitations" : "Feed continuously as the sole ration",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "(1) Bambermycins liquid Type B feeds may be manufactured from dry bambermycins Type A articles. The liquid Type B feeds must have a pH of 3.8 to 7.5, moisture content of 30 to 45 percent. (2) The expiration date for the liquid Type B feed is 8 weeks after date of manufacture. The expiration date for the dry Type C feed made from the liquid Type B feed is 1 week after date of manufacture.",
+      "Regulation" : "21 CFR §558.95",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=95"
+    }
+  ]

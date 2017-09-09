@@ -1,0 +1,34 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Lincomycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(i) 2",
+      "Combinationgramston" : "none",
+      "Indication" : "Broilers - For the control of necrotic enteritis caused or complicated by Clostridium spp. or other organisms susceptible to lincomycin",
+      "Limitations" : "Feed as the sole ration. Not for use in layers ~ breeders ~ or turkeys",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "Special considerations. (1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for chlortetracycline and sulfamethazine medicated feeds must not exceed 6 months from the date of issuance. VFDs for chlortetracycline and sulfamethazine shall not be refilled. (3) Labeling of Type A medicated articles and Type B and Type C medicated feeds containing lincomycin shall bear the following - (i) ‘‘CAUTION - Do not allow rabbits, hamsters, guinea pigs, horses, or ruminants access to feeds containing lincomycin. Ingestion by these species may result in severe gastrointestinal effects.’’ (ii) [Reserved] (4) Labeling of medicated feeds containing lincomycin intended for use in swine shall bear the following - (i) ‘‘CAUTION - Occasionally, swine fed lincomycin may within the first 2 days after the onset of treatment develop diarrhea and/or swelling of the anus. On rare occasions, some pigs may show reddening of the skin and irritable behavior. These conditions have been self-correcting within 5 to 8 days without discontinuing the lincomycin treatment.’’ (ii) ‘‘CAUTION - The effects of lincomycin on swine reproductive performance, pregnancy, and lactation have not been determined.’’",
+      "Regulation" : "21 CFR §558.325",
+      "CautionStatement" : "(3) Labeling of Type A medicated articles and Type B and Type C medicated feeds containing lincomycin shall bear the following - (i) “CAUTION - Do not allow rabbits ~ hamsters ~ guinea pigs ~ horses ~ or ruminants access to feeds containing lincomycin. Ingestion by these species may result in severe gastrointestinal effects.”",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=325"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Lincomycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(ii) 2",
+      "Combinationgramston" : "Halofuginone 2.72",
+      "Indication" : "Broiler chickens - For the control of necrotic enteritis caused or complicated by Clostridium spp. or other organisms susceptible to lincomycin ~ and the prevention of coccidiosis caused by Eimeria tenella ~ E. necatrix ~ E. acervulina ~ E. brunetti ~ E. mivati ~ and E. maxima",
+      "Limitations" : "Feed continuously as sole ration. Withdraw 4 days before slaughter. Do not feed to laying chickens or waterfowl. Halofuginone hydrobromide as provided by No. 016592 in §510.600 of this chapter",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "Special considerations. (1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for chlortetracycline and sulfamethazine medicated feeds must not exceed 6 months from the date of issuance. VFDs for chlortetracycline and sulfamethazine shall not be refilled. (3) Labeling of Type A medicated articles and Type B and Type C medicated feeds containing lincomycin shall bear the following - (i) ‘‘CAUTION - Do not allow rabbits, hamsters, guinea pigs, horses, or ruminants access to feeds containing lincomycin. Ingestion by these species may result in severe gastrointestinal effects.’’ (ii) [Reserved] (4) Labeling of medicated feeds containing lincomycin intended for use in swine shall bear the following - (i) ‘‘CAUTION - Occasionally, swine fed lincomycin may within the first 2 days after the onset of treatment develop diarrhea and/or swelling of the anus. On rare occasions, some pigs may show reddening of the skin and irritable behavior. These conditions have been self-correcting within 5 to 8 days without discontinuing the lincomycin treatment.’’ (ii) ‘‘CAUTION - The effects of lincomycin on swine reproductive performance, pregnancy, and lactation have not been determined.’’",
+      "Regulation" : "21 CFR §558.325",
+      "CautionStatement" : "(3) Labeling of Type A medicated articles and Type B and Type C medicated feeds containing lincomycin shall bear the following - (i) “CAUTION - Do not allow rabbits ~ hamsters ~ guinea pigs ~ horses ~ or ruminants access to feeds containing lincomycin. Ingestion by these species may result in severe gastrointestinal effects.”",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=325"
+    }
+  ]

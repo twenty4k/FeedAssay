@@ -1,0 +1,50 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Oxytetracycline and neomycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(ii) 100 to 200",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - For control of infectious synovitis caused by Mycoplasma synoviae ~ control of fowl cholera caused by Pasteurella multocida susceptible to oxytetracycline.",
+      "Limitations" : "Feed continuously for 7 to 14 d ~ do not feed to chickens producing eggs for human consumption ~ in low calcium feed ~ withdraw 3 d before slaughter.",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for oxytetracycline and neomycin medicated feeds must not exceed 6 months from the date of issuance. VFDs for oxytetracycline and neomycin shall not be refilled. (3) Cattle feeds shall bear the following warning statement - ‘‘Use of more than one product containing neomycin or failure to follow withdrawal times may result in illegal drug residues.’’",
+      "Regulation" : "21 CFR §558.455",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=455"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Oxytetracycline and neomycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(iii) 400",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - For control of chronic respiratory disease (CRD) and air sac infection caused by M. gallisepticum and Escherichia coli susceptible to oxytetracycline.",
+      "Limitations" : "Feed continuously for 7 to 14 d ~ do not feed to chickens producing eggs for human consumption ~ in low calcium feeds ~ withdraw 3 d before slaughter.",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for oxytetracycline and neomycin medicated feeds must not exceed 6 months from the date of issuance. VFDs for oxytetracycline and neomycin shall not be refilled. (3) Cattle feeds shall bear the following warning statement - ‘‘Use of more than one product containing neomycin or failure to follow withdrawal times may result in illegal drug residues.’’",
+      "Regulation" : "22 CFR §558.455",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=455"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Oxytetracycline and neomycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(iv) 500",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - For reduction of mortality due to air sacculitis (air-sac- infection) caused by E. coli susceptible to oxytetracycline.",
+      "Limitations" : "Feed continuously for 5 d ~ do not feed to chickens producing eggs for human consumption ~ withdraw 24 hours before slaughter ~ in low calcium feeds withdraw 3 d before slaughter.",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for oxytetracycline and neomycin medicated feeds must not exceed 6 months from the date of issuance. VFDs for oxytetracycline and neomycin shall not be refilled. (3) Cattle feeds shall bear the following warning statement - ‘‘Use of more than one product containing neomycin or failure to follow withdrawal times may result in illegal drug residues.’’",
+      "Regulation" : "23 CFR §558.455",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=455"
+    }
+  ]

@@ -1,0 +1,50 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Decoquinate",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(i) 27.2",
+      "Combinationgramston" : "none",
+      "Indication" : "Broiler chickens - For prevention of coccidiosis caused by Eimeria tenella ~ E. necatrix ~ E. mivati ~ E. acervulina ~ E. maxima ~ and E. brunetti.",
+      "Limitations" : "Do not feed to laying hens producing eggs for human consumption.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "d) Special considerations. (1) Bentonite should not be used in decoquinate feeds. (2) Type A medicated articles may be used to manufacture dry or liquid Type B cattle (including veal calf) ~ sheep ~ and goat feeds as in paragraphs (e)(2) and (e)(3) of this section. (3) Type C cattle feeds may be manufactured from decoquinate liquid Type B feeds having a pH between 5.0 to 6.5 and containing a suspending agent to maintain a viscosity of not less than 500 centipoises",
+      "Regulation" : "21 CFR §558.195",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=195"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Decoquinate",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(ii) 27.2",
+      "Combinationgramston" : "Bacitracin methylenedisalicylate 4 to 50",
+      "Indication" : "Broiler chickens - As in paragraph (e)(1)(i) of this section ~ and for increased rate of weight gain and improved feed efficiency.",
+      "Limitations" : "Feed continuously as sole ration ~ do not feed to laying chickens. Bacitracin methylenedisalicylate as provided by No. 054771in §510.600(c) of this chapter.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "d) Special considerations. (1) Bentonite should not be used in decoquinate feeds. (2) Type A medicated articles may be used to manufacture dry or liquid Type B cattle (including veal calf) ~ sheep ~ and goat feeds as in paragraphs (e)(2) and (e)(3) of this section. (3) Type C cattle feeds may be manufactured from decoquinate liquid Type B feeds having a pH between 5.0 to 6.5 and containing a suspending agent to maintain a viscosity of not less than 500 centipoises",
+      "Regulation" : "21 CFR §558.195",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=195"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Decoquinate",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(iii) 27.2",
+      "Combinationgramston" : "Bacitracin zinc 10 to 50",
+      "Indication" : "Broiler chickens - As in paragraph (e)(1)(ii) of this section.",
+      "Limitations" : "Feed continuously as sole ration ~ do not feed to laying chickens. Bacitracin zinc as provided by No. 054771 in §510.600(c) of this chapter.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "d) Special considerations. (1) Bentonite should not be used in decoquinate feeds. (2) Type A medicated articles may be used to manufacture dry or liquid Type B cattle (including veal calf) ~ sheep ~ and goat feeds as in paragraphs (e)(2) and (e)(3) of this section. (3) Type C cattle feeds may be manufactured from decoquinate liquid Type B feeds having a pH between 5.0 to 6.5 and containing a suspending agent to maintain a viscosity of not less than 500 centipoises",
+      "Regulation" : "21 CFR §558.195",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=195"
+    }
+  ]

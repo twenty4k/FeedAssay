@@ -1,0 +1,50 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Erythromycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(i) 92.5",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - As an aid in the prevention of chronic respiratory disease during periods of stress",
+      "Limitations" : "Feed for 2 days before stress and 3 to 6 days after stress. Withdraw 24 hours before slaughter",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for erythromycin medicated feeds must not exceed 6 months from the date of issuance. VFDs for erythromycin shall not be refilled",
+      "Regulation" : "21 CFR §558.248",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=248"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Erythromycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(ii) 92.5",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - As an aid in the prevention of infectious coryza",
+      "Limitations" : "Feed for 7 to 14 days. Withdraw 24 hours before slaughter",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for erythromycin medicated feeds must not exceed 6 months from the date of issuance. VFDs for erythromycin shall not be refilled",
+      "Regulation" : "21 CFR §558.248",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=248"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Erythromycin",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "All",
+      "gramston" : "(iii) 185",
+      "Combinationgramston" : "none",
+      "Indication" : "Chickens - As an aid in the prevention and reduction of lesions and in lowering severity of chronic respiratory disease (CRD)",
+      "Limitations" : "Feed for 5 to 8 days. Withdraw 48 hours before slaughter. Do not use in birds producing eggs for food",
+      "Sponsor" : ".",
+      "VFD" : "Yes",
+      "SpecialConsiderations" : "(1) Federal law restricts medicated feed containing this veterinary feed directive (VFD) drug to use by or on the order of a licensed veterinarian. See §558.6 for additional requirements. (2) The expiration date of VFDs for erythromycin medicated feeds must not exceed 6 months from the date of issuance. VFDs for erythromycin shall not be refilled",
+      "Regulation" : "21 CFR §558.248",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=248"
+    }
+  ]

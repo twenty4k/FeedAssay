@@ -1,0 +1,50 @@
+[
+    {
+      "Species" : "Chicken",
+      "Medication" : "Diclazuril",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(i) 0.91 (1 part per million (ppm))",
+      "Combinationgramston" : "none",
+      "Indication" : "Broiler chickens - For the prevention of coccidiosis caused by Eimeria tenella ~ E. necatrix ~ E. acervulina ~ E. brunetti ~ E. mitis (mivati) ~ and E. maxima. Because diclazuril is effective against E. maxima later in its life cycle ~ subclinical intestinal lesions may be present for a short time after infection. Diclazuril was shown in studies to reduce lesion scores and improve performance and health of birds challenged with E. maxima.",
+      "Limitations" : "Feed continuously. Not for use in hens producing eggs for human food.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "N/A",
+      "Regulation" : "21 CFR §558.198",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=198"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Diclazuril",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(ii) 0.91 (1 ppm)",
+      "Combinationgramston" : "Bacitracin methylenedisalicylate 4 to 50",
+      "Indication" : "Broiler chickens - As in item (i) of this table ~ for increased rate of weight gain and improved feed efficiency.",
+      "Limitations" : "As in item (i) of this table. Bacitracin methylenedisalicylate provided by 054771.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "N/A",
+      "Regulation" : "21 CFR §558.198",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=198"
+    },
+    {
+      "Species" : "Chicken",
+      "Medication" : "Diclazuril",
+      "ConditionsAge" : "N/A",
+      "SubSpeciesClass" : "Broiler",
+      "gramston" : "(iii) 0.91 (1 ppm)",
+      "Combinationgramston" : "Bambermycins 1 to 2",
+      "Indication" : "Broiler chickens - As in item (i) of this table) ~ for increased rate of weight gain and improved feed efficiency.",
+      "Limitations" : "As in item (i) of this table. Bambermycins provided by 057926.",
+      "Sponsor" : ".",
+      "VFD" : "No",
+      "SpecialConsiderations" : "N/A",
+      "Regulation" : "21 CFR §558.198",
+      "CautionStatement" : "N/A",
+      "Link" : "http - //api.fdsys.gov/link?collection=cfr&titlenum=21&partnum=558&sectionnum=198"
+    }
+  ]
